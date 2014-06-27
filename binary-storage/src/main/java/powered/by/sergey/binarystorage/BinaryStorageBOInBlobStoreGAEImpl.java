@@ -114,6 +114,9 @@ public class BinaryStorageBOInBlobStoreGAEImpl implements BinaryStorageBO {
 
 	@Override
 	public String createUploadUrl(String url) {
+		if (!url.startsWith("/")) {
+			url = "/" + url;
+		}
 		return blobstoreService.createUploadUrl(url);
 	}
 
