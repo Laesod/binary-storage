@@ -99,4 +99,9 @@ public class BinaryStorageBOInFileImpl implements BinaryStorageBO {
 		return url;
 	}
 
+	@Override
+	public FileInfo getFileInfo(HttpServletRequest req) {
+		return null;
+	}
+
 }

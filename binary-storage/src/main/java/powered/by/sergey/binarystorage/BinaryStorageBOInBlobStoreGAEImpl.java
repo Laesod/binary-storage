@@ -120,4 +120,24 @@ public class BinaryStorageBOInBlobStoreGAEImpl implements BinaryStorageBO {
 		return blobstoreService.createUploadUrl(url);
 	}
 
+	@Override
+	public FileInfo getFileInfo(HttpServletRequest req) {
+		Map<String, BlobKey> blobs = blobstoreService.getUploadedBlobs(req);
+	    if (blobs.keySet().isEmpty()) { 
+	    	throw new RuntimeException("No File found"); 
+	    }
+	    Iterator<String> names = blobs.keySet().iterator();
+	    String blobName = names.next();
+	    BlobKey blobKey = blobs.get(blobName);
+	    BlobInfoFactory blobInfoFactory = new BlobInfoFactory();
+	    BlobInfo blobInfo = blobInfoFactory.loadBlobInfo(blobKey);
+
+	    FileInfo fileInfo = new FileInfo();
+	    fileInfo.setFileName(blobInfo.getFilename());
+	    fileInfo.setContentType(blobInfo.getContentType());
+	    fileInfo.setSize(blobInfo.getSize());
+	    
+		return fileInfo;
+	}
+
 }

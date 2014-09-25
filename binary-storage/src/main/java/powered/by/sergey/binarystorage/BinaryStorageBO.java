@@ -28,6 +28,7 @@ import javax.servlet.http.HttpServletRequest;
 public interface BinaryStorageBO {
 	byte[] getFile(String id);
 	String saveFile(InputStream inputStream, HttpServletRequest req);
+	FileInfo getFileInfo(HttpServletRequest req);
 	void deleteFile(String id);
 	String createUploadUrl(String url);
 }
