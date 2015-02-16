@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>powered.by.sergey</groupId>
   <artifactId>binary-storage</artifactId>
-  <version>0.0.3-SNAPSHOT</version>
+  <version>0.0.3</version>
 
   <organization>
   	<name>Powered by Sergey</name>
@@ -45,7 +45,7 @@
 		  </configuration>
 		</plugin>
       <!-- Enhance all classes found within a entities folder. -->
-      <plugin>
+<!--       <plugin>
         <groupId>org.datanucleus</groupId>
         <artifactId>maven-datanucleus-plugin</artifactId>
         <version>${datanucleus.jpa.version}</version>
@@ -70,7 +70,7 @@
           </execution>
         </executions>
       </plugin>
-    </plugins>
+ -->    </plugins>
      <!-- 
       Needed to remove the build errors in Eclipse since the life cycle mapping is not supported.
       See link for more info: http://wiki.eclipse.org/M2E_plugin_execution_not_covered
