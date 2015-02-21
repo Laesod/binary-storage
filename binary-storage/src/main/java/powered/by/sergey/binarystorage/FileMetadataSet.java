@@ -48,7 +48,7 @@ public class FileMetadataSet {
 	private Date lastModifiedAt;		
 	
 	@Embedded
-	private GeneralAttributes generalAttributes;
+	private FMGeneralAttributes generalAttributes;
 	
 	@OneToMany(mappedBy="fileMetadataSet")
 	private Collection<FileMetadata> fileMetadatas;
@@ -77,11 +77,11 @@ public class FileMetadataSet {
 		this.lastModifiedAt = lastModifiedAt;
 	}		
 	
-	public GeneralAttributes getGeneralAttributes() {
+	public FMGeneralAttributes getGeneralAttributes() {
 		return generalAttributes;
 	}
 
-	public void setGeneralAttributes(GeneralAttributes generalAttributes) {
+	public void setGeneralAttributes(FMGeneralAttributes generalAttributes) {
 		this.generalAttributes = generalAttributes;
 	}
 	

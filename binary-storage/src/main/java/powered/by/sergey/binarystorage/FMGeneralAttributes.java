@@ -24,7 +24,7 @@ import javax.persistence.Column;
 import javax.persistence.Embeddable;
 
 @Embeddable
-public class GeneralAttributes {		
+public class FMGeneralAttributes {		
 	@Column(name = "createdBy", length = 50, columnDefinition = "Varchar(50) default ''")
 	private String createdBy;
 	

@@ -94,7 +94,7 @@ public class FileMetadata {
 	private Date lastModifiedAt;	
 	
 	@Embedded
-	private GeneralAttributes generalAttributes;	
+	private FMGeneralAttributes generalAttributes;	
 	
 	@ManyToOne(cascade = CascadeType.ALL)
 	@JoinColumn(name = "fileMetadataSetGuid", insertable = false, updatable = false)
@@ -220,11 +220,11 @@ public class FileMetadata {
 		this.lastModifiedAt = lastModifiedAt;
 	}		
 	
-	public GeneralAttributes getGeneralAttributes() {
+	public FMGeneralAttributes getGeneralAttributes() {
 		return generalAttributes;
 	}
 
-	public void setGeneralAttributes(GeneralAttributes generalAttributes) {
+	public void setGeneralAttributes(FMGeneralAttributes generalAttributes) {
 		this.generalAttributes = generalAttributes;
 	}	
 	

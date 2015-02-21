@@ -57,7 +57,7 @@ public class FileMetadataDAO {
 		try {
 			em.getTransaction().begin();
 			
-			GeneralAttributes generalAttributes = new GeneralAttributes();
+			FMGeneralAttributes generalAttributes = new FMGeneralAttributes();
 			generalAttributes.setIsDeleted(false);
 			generalAttributes.setIsArchived(false);	
 			attachment.setGeneralAttributes(generalAttributes);				
