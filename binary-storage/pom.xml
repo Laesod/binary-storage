@@ -6,9 +6,10 @@
 
   <organization>
   	<name>Powered by Sergey</name>
+  	<url>http://powered-by-sergey.wikidot.com</url>
   </organization>
 
-  <description>binary starage</description>
+  <description>Binary Starage REST API for java web projects.</description>
   <inceptionYear>2014</inceptionYear>
   
   <licenses>
@@ -28,8 +29,38 @@
 
   <scm>
     <developerConnection>scm:git:https://github.com/Laesod/binary-storage.git</developerConnection>
+    <url>https://github.com/Laesod/binary-storage</url>
+    <connection>scm:git:https://github.com/Laesod/binary-storage.git</connection>
   </scm>
-
+  
+  <developers>
+    <developer>
+      <id>Laesod</id>
+      <name>Laesod</name>
+      <email>powered.by.sergey@gmail.com</email>
+      <url>http://powered-by-sergey.wikidot.com</url>
+      <organization>Powered by Sergey</organization>
+      <organizationUrl>http://powered-by-sergey.wikidot.com</organizationUrl>
+      <roles>
+        <role>architect</role>
+        <role>developer</role>
+      </roles>
+    </developer>
+  </developers>
+  
+  <contributors>
+    <contributor>
+      <name>Laesod</name>
+      <email>powered.by.sergey@gmail.com</email>
+      <url>http://powered-by-sergey.wikidot.com</url>
+      <organization>Powered by Sergey</organization>
+      <organizationUrl>http://powered-by-sergey.wikidot.com</organizationUrl>
+      <roles>
+        <role>tester</role>
+      </roles>
+    </contributor>
+  </contributors>
+  
   <build>
     <plugins>
       <plugin>
@@ -260,4 +291,10 @@
     </plugins>
   </reporting> 
 
+  <url>https://github.com/Laesod/binary-storage</url>
+  <name>Binary Starage</name>
+  <issueManagement>
+  	<url>https://github.com/Laesod/binary-storage/issues</url>
+  	<system>GitHub</system>
+  </issueManagement>
 </project>
