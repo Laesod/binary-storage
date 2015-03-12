@@ -44,6 +44,7 @@ public class FileNameHelperTest {
 		assertThat(fnh.extractExtention("Marusya.pdf.jpg"), is(".jpg"));
 		assertThat(fnh.extractExtention("Vasya.jpj.pdf"), is(".pdf"));
 		assertThat(fnh.extractExtention(""), is(nullValue()));
+		assertThat(fnh.extractExtention(null), is(nullValue()));
 		assertThat(fnh.extractExtention("Marusya."), is("."));
 
 	}
