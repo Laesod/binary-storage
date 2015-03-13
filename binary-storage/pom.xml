@@ -9,7 +9,7 @@
   	<url>http://powered-by-sergey.wikidot.com</url>
   </organization>
 
-  <description>Binary Starage REST API for java web projects.</description>
+  <description>Binary Storage REST API for java web projects.</description>
   <inceptionYear>2014</inceptionYear>
   
   <licenses>
@@ -292,7 +292,7 @@
   </reporting> 
 
   <url>https://github.com/Laesod/binary-storage</url>
-  <name>Binary Starage</name>
+  <name>Binary Storage</name>
   <issueManagement>
   	<url>https://github.com/Laesod/binary-storage/issues</url>
   	<system>GitHub</system>
