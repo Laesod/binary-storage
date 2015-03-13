@@ -19,9 +19,9 @@ under the License.
 -->
 <rss version="0.91">
   <channel>
-    <title>Binary Starage - Checkstyle report</title>
+    <title>Binary Storage - Checkstyle report</title>
     <link>https://github.com/Laesod/binary-storage</link>
-    <description>Binary Starage - Checkstyle report</description>
+    <description>Binary Storage - Checkstyle report</description>
     <language>en-us</language>
     <copyright>&#169;2014 - 2015 Powered by Sergey</copyright>
     <item>
