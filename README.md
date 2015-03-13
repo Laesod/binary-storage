@@ -3,7 +3,7 @@ binary-storage
 
 REST API for java web projects library.
 
-Demo: http://laesod.github.io/binary-storage/
+Docs: http://laesod.github.io/binary-storage/
 
 Prerequisite:
 -Eclipse with EGit
