@@ -297,4 +297,8 @@
   	<url>https://github.com/Laesod/binary-storage/issues</url>
   	<system>GitHub</system>
   </issueManagement>
+  <ciManagement>
+  	<system>Jenkins</system>
+  	<url>https://buildhive.cloudbees.com/job/Laesod/job/binary-storage/</url>
+  </ciManagement>
 </project>
