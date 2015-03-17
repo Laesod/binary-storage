@@ -51,6 +51,16 @@
     <connection>scm:git:https://github.com/Laesod/binary-storage.git</connection>
   </scm>
   
+  <mailingLists>
+    <mailingList>
+      <name>User List</name>
+      <subscribe>binary-storage+subscribe@googlegroups.com</subscribe>
+      <unsubscribe>binary-storage+unsubscribe@googlegroups.com</unsubscribe>
+      <post>binary-storage@googlegroups.com</post>
+      <archive>https://groups.google.com/forum/#!forum/binary-storage</archive>
+    </mailingList>
+  </mailingLists>
+    
   <developers>
     <developer>
       <id>Laesod</id>
