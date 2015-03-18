@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
 
-<coverage line-rate="0.043795620437956206" branch-rate="0.13333333333333333" lines-covered="12" lines-valid="274" branches-covered="4" branches-valid="30" complexity="1.3018867924528301" version="2.0.3" timestamp="1426561784452">
+<coverage line-rate="0.043795620437956206" branch-rate="0.13333333333333333" lines-covered="12" lines-valid="274" branches-covered="4" branches-valid="30" complexity="1.3018867924528301" version="2.0.3" timestamp="1426648785616">
 	<sources>
 		<source>--source</source>
 		<source>C:/Users/ElenaAndSergey/git/binary-storage/src/main/java</source>
