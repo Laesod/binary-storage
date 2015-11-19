@@ -1,13 +1,11 @@
 binary-storage
 ==============
 
+[![Build Status](https://travis-ci.org/Laesod/binary-storage.svg)](https://travis-ci.org/Laesod/binary-storage)
+
 REST API for java web projects library.
 
 Docs: http://laesod.github.io/binary-storage/
-
-CI: https://buildhive.cloudbees.com/job/Laesod/job/binary-storage/
-
-Docs from CI: https://buildhive.cloudbees.com/job/Laesod/job/binary-storage/site/
 
 Prerequisite:
 -Eclipse with EGit
