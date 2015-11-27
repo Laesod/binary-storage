@@ -4,7 +4,7 @@ binary-storage
 [![Build Status](https://travis-ci.org/Laesod/binary-storage.svg)](https://travis-ci.org/Laesod/binary-storage)
 [![License](http://img.shields.io/:license-apache 2.0-blue.svg)](https://github.com/Laesod/binary-storage/blob/master/LICENSE)
 
-REST API for java web projects library.
+File upload/download REST API for java web projects library.
 
 Docs: http://laesod.github.io/binary-storage/
 
